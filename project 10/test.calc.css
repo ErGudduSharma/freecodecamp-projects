@@ -1,0 +1,30 @@
+#calculator{
+          margin: 10%;
+            height:100%;
+            width:30%;
+            border: 1px solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 50px;
+            
+        }
+        .button_container{
+            height:100%;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            top: 10px;
+            
+           
+        }
+        .button{
+            height:50px;
+            width: 50px;
+        }
+        #display{
+            height: 40px;
+            width: 200px;
+            font-size: 1.8rem;
+        }
